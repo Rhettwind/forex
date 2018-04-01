@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c08c6e8-89ab-4251-bfc5-1c428846debd" name="Default" comment="" />
+    <ignored path="forex.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/popup.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486742085672" ignored="false" />
+    <file path="/popup.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486745485937" ignored="false" />
+    <file path="/eventPage.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1510571030112" ignored="false" />
+    <file path="/background.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421512367669" ignored="false" />
+    <file path="/manifest.json" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486644582351" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/tornado-chat/templates/index.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421005321325" ignored="false" />
+    <file path="/index.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496697106203" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/global/_message2.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426254121155" ignored="false" />
+    <file path="/_message2.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426253998990" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/tornado-chat/static/app.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421000836667" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/orders/models.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422223184629" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/tornado-chat/requirements.txt" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1420817738132" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/deal.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422209796039" ignored="false" />
+    <file path="/app.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421000145751" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/tornado-chat/templates/messages.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1420848412266" ignored="false" />
+    <file path="/messages.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1420834910132" ignored="false" />
+    <file path="/a.dummy" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1465417918571" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/media/css/styles.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422367544732" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/tornado-chat/templates/message.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1420848725617" ignored="false" />
+    <file path="/message.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1420848725322" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/global/_order.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422223379385" ignored="false" />
+    <file path="/Dummy.txt" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426282766400" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/tornado-chat/app.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426245634908" ignored="false" />
+    <file path="/news.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1420979277307" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/tornado-chat/start_chat.sh" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1420995023999" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/deal_feedback.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421008854413" ignored="false" />
+    <file path="/deal.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422055940299" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/publicpage.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421162304319" ignored="false" />
+    <file path="/publicpage.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421162175349" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/global/_usermenu.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426282431002" ignored="false" />
+    <file path="/_usermenu.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421736960123" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/orders/utils.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421850520156" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/settings.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421738917042" ignored="false" />
+    <file path="/settings.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421738917042" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/requests.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422224444774" ignored="false" />
+    <file path="/requests.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422224236595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/newoffer.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422214242100" ignored="false" />
+    <file path="/newoffer.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422056224386" ignored="false" />
+    <file path="/_order.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422223379385" ignored="false" />
+    <file path="/models.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422223105063" ignored="false" />
+    <file path="/utils.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1421744676337" ignored="false" />
+    <file path="/trade.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422223366742" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/trade.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422223366742" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/deals.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422223340350" ignored="false" />
+    <file path="/deals.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422223340350" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/help.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422056748111" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/face/views.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422214773480" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/priceupdate/tasks.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422052723574" ignored="false" />
+    <file path="/tasks.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422052599925" ignored="false" />
+    <file path="/fragment.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422222462541" ignored="false" />
+    <file path="/help.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422053979506" ignored="false" />
+    <file path="/_topmenu.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426281954241" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/global/_topmenu.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426282259414" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/global/_modal.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422056580062" ignored="false" />
+    <file path="/_modal.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422055920028" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/face/index.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422371124240" ignored="false" />
+    <file path="/views.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422214773035" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/orders/management/commands/orderscreate.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422227227495" ignored="false" />
+    <file path="/orderscreate.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422227162879" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/media/js/jquery.tablesorter.pager.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1422270661415" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/trade/templates/global/_general.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426282458567" ignored="false" />
+    <file path="/_general.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426255548959" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/userauth/management/commands/msgsend.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426280708691" ignored="false" />
+    <file path="/msgsend.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426280707603" ignored="false" />
+    <file path="$PROJECT_DIR$/../../1find/trade/userauth/utils.py" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1426262941559" ignored="false" />
+    <file path="/style.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496696883308" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/manifest.json" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487789772058" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/eventPage.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487789760434" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/popup.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1461439168767" ignored="false" />
+    <file path="/tv.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1460480710084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/src/style.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1461928005422" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/popup.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1461350091715" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/css/fontello.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1461064011589" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/more.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1485440056779" ignored="false" />
+    <file path="/more.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1485440056779" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/src/mstyle.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1485440575411" ignored="false" />
+    <file path="/mstyle.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1485440546965" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/src/more.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1461167587526" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/more.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1485439446533" ignored="false" />
+    <file path="/more.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1485437813696" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anticloud doit/anticloud doit/bg.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1461358339846" ignored="false" />
+    <file path="/bg.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486393855403" ignored="false" />
+    <file path="$PROJECT_DIR$/../forex2 add1/manifest.json" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1485771539617" ignored="false" />
+    <file path="$PROJECT_DIR$/../forex2 add1 copy/manifest.json" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1485771898767" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/eventPage.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486742517927" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/bg.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486396999976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/more.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486387359381" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/popup.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486747184291" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/more.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486387369892" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/src/mstyle.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486387372373" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/popup.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486742088353" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/src/style.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486742073860" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/manifest.json" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486747251030" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/options.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486497796653" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/options.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486497793641" ignored="false" />
+    <file path="/options.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486416785247" ignored="false" />
+    <file path="/options.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486416717144" ignored="false" />
+    <file path="$PROJECT_DIR$/../../crypto ticker/crypto ticker/css/fontello.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1486579035113" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/index.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487628080691" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/css/style.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487625604251" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/mail/contact_me.php" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487622552117" ignored="false" />
+    <file path="/contact_me.php" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496693315848" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/css/style.css" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496697457476" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/index.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1500009516695" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/login.php" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487872001220" ignored="false" />
+    <file path="/login.php" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487871988946" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/logout.php" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487859961477" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/customers.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487870580839" ignored="false" />
+    <file path="/customers.html" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1487870575268" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/js/accom.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496688979896" ignored="false" />
+    <file path="/accom.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496673553495" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/js/load_cal.php" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496687455570" ignored="false" />
+    <file path="/load_cal.php" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496687426715" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/mail/contact_me.php" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496694086349" ignored="false" />
+    <file path="$PROJECT_DIR$/../../panoramiceden/site/js/contact_me.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496694304689" ignored="false" />
+    <file path="/contact_me.js" changelist="3c08c6e8-89ab-4251-bfc5-1c428846debd" time="1496694277343" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="forex" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="10" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventPage.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eventPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="162" column="24" selection-start="9074" selection-end="9078" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="142" column="83" selection-start="5687" selection-end="5847" vertical-scroll-proportion="1.849315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="7" selection-start="0" selection-end="1837" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tv.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tv.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="46027" selection-end="46027" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="15" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/manifest.json.js" />
+        <option value="$PROJECT_DIR$/manifest.json.coffee" />
+        <option value="$PROJECT_DIR$/background.html" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/background.js" />
+        <option value="$PROJECT_DIR$/tv.js" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/popup.html" />
+        <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/eventPage.js" />
+        <option value="$PROJECT_DIR$/popup.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../anticloud doit/anticloud doit" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="00b3b863-e613-4698-ba04-6e93d789c5a5">
+        <serverdata />
+      </server>
+      <server id="10860960-f167-4050-bce2-bcf61abc03cd">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="forex" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c08c6e8-89ab-4251-bfc5-1c428846debd" name="Default" comment="" />
+      <created>1420552913710</created>
+      <updated>1420552913710</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="730" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16855754" sideWeight="0.6705107" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="15" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="61" selection-start="1651" selection-end="1700" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="48" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="7" selection-start="0" selection-end="1837" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="46027" selection-end="46027" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="15" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="24" selection-start="9074" selection-end="9078" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="83" selection-start="5687" selection-end="5847" vertical-scroll-proportion="1.849315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

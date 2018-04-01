@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script src="popup.js"></script>
+    <script src="eventPage.js"></script>
+    <script src="tv.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="css/fontello.css" rel="stylesheet">
+
+    <title></title>
+</head>
+<body>
+
+<div id="bar">
+    <a href="#"></a>
+    <div class="bar_it" id="refresh">
+        <i class="icon-back-in-time"></i>
+        <span> интервал обновления, минут </span>
+        <input id="interval" type="number">
+    </div>
+    <div class="bar_it" id="edit_cb">
+    <span><i class="icon-doc-add"></i> выбрать валюты </span>
+    </div>
+    <div class="bar_it" id="graph_tab">
+        <i class="icon-chart-area"></i> График <span id="gr_tab">✓</span>   <!---<input type="checkbox" id="gr_tab">--->
+    </div>
+    <div class="bar_it">
+        <i class="icon-calendar"></i>
+        <span> курс ЦБ на дату </span>
+        <input id="CBdate" type="date">
+    </div>
+</div>
+<div class="head">Биржевые курсы on-line на <span id="time"></span><span id="copy"></span>
+
+</div>
+<div class="head" id="CB" style="display: none">
+    <span>Курсы ЦБ на </span>
+</div>
+<div id="rates">
+    <span id="rate" class="rate" style="display: none">
+    <img src="" width="19" class="icon"><span class="cur"></span><span class="price"></span><span class="change"></span>
+    </span>
+</div>
+
+
+<div id="calc">
+    <i class="icon-calc"></i> Калькулятор:&nbsp;&nbsp;&nbsp;
+    <input id="val1" type="number">
+    <select id="sel1">
+        <option value="1">RUB</option>
+    </select>
+    <input id="val2" type="number">
+    <select id="sel2">
+        <option value="1">RUB</option>
+    </select>
+</div>
+
+<div id="graph"></div>
+<div id="edit_cb_win"><div id="close">✕</div></div>
+<div id="overlay"></div>
+</body>
+</html>
