@@ -8,7 +8,7 @@ var cbr_url_prev_f = 'http://www.cbr.ru/scripts/XML_daily.asp?date_req=###'
 var cbr_url_prev="";
 var cbr_url = 'http://www.cbr.ru/scripts/XML_daily.asp';
 //var btc_url = 'http://api.bitcoincharts.com/v1/markets.json'
-var btc_url = 'https://www.bitstamp.net/api/ticker/'
+var btc_url = 'https://api.cryptowat.ch/markets/bitstamp/btcusd/price'
 var rates = [[],[],[],[],[],[],[],[]];
 
 chrome.runtime.onInstalled.addListener(function(details){
@@ -18,7 +18,7 @@ chrome.runtime.onInstalled.addListener(function(details){
     localStorage.cur = localStorage.cur || 0;
     localStorage.se1 = localStorage.se1 || 0;
     localStorage.se12 = localStorage.sel2 || 1;
-    localStorage.graph = localStorage.graph || 1;
+    localStorage.graph = localStorage.graph || 0;
     chrome.browserAction.setBadgeText({text:"wait"});
     chrome.browserAction.setBadgeBackgroundColor({color: "#3A6E1B"});
     localStorage.init = 0;
@@ -118,7 +118,7 @@ function get_cur(url) {
                     break;
                 case btc_url:
                     //rates[2] = ["BTC", json.filter(function(v){return v.symbol=="bitstampUSD"})[0].close, "BTC",1,"Биткоин (цена в долларах)", "BITSTAMP:BTCUSD", 0]; //bitcoincharts
-                    rates[2] = ["BTC", json.last, "BTC",1,"Биткоин (цена в долларах)", "BITSTAMP:BTCUSD", 0];
+                    rates[2] = ["BTC", json.result.price, "BTC",1,"Биткоин (цена в долларах)", "BITSTAMP:BTCUSD", 0];
                     break;
                 case ya_oil_url:
                     rates[4] = ["OIL", xhr.responseXML.getElementsByTagName('value')[0].childNodes[0].nodeValue, "OIL",1,"Баррель нефти BRENT (цена в долларах)", "FX_IDC:USDBRO", xhr.responseXML.getElementsByTagName('change')[0].childNodes[0].nodeValue];
