@@ -14,7 +14,7 @@
 Live USD/RUB, EUR/RUB, Bitcoin/USD forex rates, Brent Oil, Gold and Central Bank Russia rates. Data source: cbr.ru, yahoo.finance and Yandex.Quotes. Currency calculator. Graph tradingview.com
 
 ## Changelog
-5.2.1 Замена источника курса BTC на bitstamp (bitcoincharts стал неверные данные отдавать)
+5.2.2 Замена источника курса BTC на cryptowat.ch (bitcoincharts стал неверные данные отдавать)
 5.2.0 Коррекция источника данных
 5.1.1. Новый источник для курса биткоина, yahoo перестало обновлять
 5.0.1. Замена на новые символы золото GC=F и брент BZ=F. Коррекция длинны текста в иконке.
