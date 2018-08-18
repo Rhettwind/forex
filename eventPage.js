@@ -1,9 +1,12 @@
 //var forex_url = 'https://finance.yahoo.com/webservice/v1/symbols/RUB=X,EURRUB=X,BTCUSD=X,XAUUSD=X,###/quote?format=json';
 //var forex_url = 'https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quote%20where%20symbol%20in%20(%22RUB%3DX%2CEURRUB%3DX%2CBTCUSD%3DX%2CXAUUSD%3DX%2C###%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=';
 //var forex_url_f = 'https://query.yahooapis.com/v1/public/yql?q=select * from yahoo.finance.quote where symbol in ("RUB=X,EURRUB=X,BTCUSD=X,GC=F,BZ=F")&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys';
-var forex_url_f = 'https://finance.yahoo.com/webservice/v1/symbols/allcurrencies/quote?format=json'
+//var forex_url_f = 'https://finance.yahoo.com/webservice/v1/symbols/allcurrencies/quote?format=json'
+//var forex_url_f = 'https://pool.mfcoin.net/json/rates.latest.json';
+var forex_url_f = 'https://quotes.instaforex.com/api/quotesTick?apiVersion=1&m=json&q=USDRUR,EURRUR,GOLD,%23bitcoin';
 var forex_url = "";
 var ya_oil_url = 'https://export.yandex.ru/bar/quotes.xml?id=1006';
+var ya_gld_url = 'https://export.yandex.ru/bar/quotes.xml?id=10';
 var cbr_url_prev_f = 'http://www.cbr.ru/scripts/XML_daily.asp?date_req=###'
 var cbr_url_prev="";
 var cbr_url = 'http://www.cbr.ru/scripts/XML_daily.asp';
@@ -49,7 +52,8 @@ function get_all() {
     console.log(forex_url);
     get_cur(forex_url);
     get_cur(ya_oil_url);
-    get_cur(btc_url);
+    //get_cur(ya_gld_url);
+    //get_cur(btc_url);
 
     localStorage.CB = 0;
     if (chrome.extension.getViews({ type: "popup" }).length > 0 && document.getElementById("CBdate").value != "") {
@@ -104,25 +108,26 @@ function get_cur(url) {
             if (localStorage.rates) { rates = JSON.parse(localStorage.rates); }
             switch (url) {
                 case forex_url:
-                    //rates[0] = ["USD", json.query.results.quote["0"].LastTradePriceOnly, "USD",1,"Доллар США", "FX_IDC:USDRUB", json.query.results.quote["0"].Change];
-                    //rates[1] = ["EUR", json.query.results.quote["1"].LastTradePriceOnly, "EUR",1,"Евро", "FX_IDC:EURRUB", json.query.results.quote["1"].Change];
-                    //rates[2] = ["BTC", json.query.results.quote["2"].LastTradePriceOnly, "BTC",1,"Биткоин (цена в долларах)", "BITSTAMP:BTCUSD", json.query.results.quote["2"].Change];
-                    //rates[3] = ["GLD", json.query.results.quote["3"].LastTradePriceOnly, "GOLD",1,"Тройскую унцию золота (цена в долларах)","FX_IDC:XAUUSD", json.query.results.quote["3"].Change];
-                    //rates[4] = ["OIL", json.query.results.quote["4"].LastTradePriceOnly, "OIL",1,"Баррель нефти BRENT (цена в долларах)", localStorage.oil_graph, json.query.results.quote["4"].Change];
-                    usd = json.list.resources.filter(function(v){return v.resource.fields.name=="USD/RUB"})[0].resource.fields.price;
-                    rates[0] = ["USD", usd, "USD",1,"Доллар США", "FX_IDC:USDRUB", 0];
-                    eur = usd / json.list.resources.filter(function(v){return v.resource.fields.name=="USD/EUR"})[0].resource.fields.price;
-                    rates[1] = ["EUR", eur, "EUR",1,"Евро", "FX_IDC:EURRUB", 0];
-                    gld = 1 / json.list.resources.filter(function(v){return v.resource.fields.name=="XAU=X"})[0].resource.fields.price;
-                    rates[3] = ["GLD", gld, "GOLD",1,"Тройскую унцию золота (цена в долларах)","FX_IDC:XAUUSD", 0];
+                    // usd = json.USD_RUB.rate;
+                    usd = (json["0"].ask + json["0"].bid) / 2;
+                    // rates[0] = ["USD", usd, "USD",1,"Доллар США", "FX_IDC:USDRUB", json.USD_RUB.daily_delta];
+                    rates[0] = ["USD", usd, "USD",1,"Доллар США", "FX_IDC:USDRUB", json["0"].change24h]; // FOREXCOM:USDRUB
+                    // eur = json.EUR_RUB.rate;
+                    eur = (json["1"].ask + json["1"].bid) / 2;
+                    // rates[1] = ["EUR", eur, "EUR",1,"Евро", "FX_IDC:EURRUB", json.EUR_RUB.daily_delta];
+                    rates[1] = ["EUR", eur, "EUR",1,"Евро", "FX_IDC:EURRUB", json["1"].change24h]; // FOREXCOM:EURRUB
+                    rates[2] = ["BTC", (json["3"].ask + json["3"].bid) / 2, "BTC",1,"Биткоин (цена в долларах)", "BITSTAMP:BTCUSD", json["3"].change24h];
+                    rates[3] = ["GLD", (json["2"].ask + json["2"].bid) / 2, "GOLD",1,"Тройскую унцию золота (цена в долларах)", "FX_IDC:XAUUSD", json["2"].change24h];
                     break;
                 case btc_url:
-                    //rates[2] = ["BTC", json.filter(function(v){return v.symbol=="bitstampUSD"})[0].close, "BTC",1,"Биткоин (цена в долларах)", "BITSTAMP:BTCUSD", 0]; //bitcoincharts
                     rates[2] = ["BTC", json.result.price, "BTC",1,"Биткоин (цена в долларах)", "BITSTAMP:BTCUSD", 0];
                     break;
                 case ya_oil_url:
                     rates[4] = ["OIL", xhr.responseXML.getElementsByTagName('value')[0].childNodes[0].nodeValue, "OIL",1,"Баррель нефти BRENT (цена в долларах)", "FX_IDC:USDBRO", xhr.responseXML.getElementsByTagName('change')[0].childNodes[0].nodeValue];
                     break;
+                case ya_gld_url:
+                        rates[3] = ["GLD", xhr.responseXML.getElementsByTagName('value')[0].childNodes[0].nodeValue, "GOLD",1,"Тройскую унцию золота (цена в долларах)", "FX_IDC:XAUUSD", xhr.responseXML.getElementsByTagName('change')[0].childNodes[0].nodeValue];
+                        break;
                 case cbr_url_prev:
                     var valutes = xhr.responseXML.getElementsByTagName("Valute");
                     localStorage.old_rates="";
